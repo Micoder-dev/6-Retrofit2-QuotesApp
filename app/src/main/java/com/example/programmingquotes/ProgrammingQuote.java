@@ -2,7 +2,7 @@ package com.example.programmingquotes;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ProgrammingQuotes {
+public class ProgrammingQuote {
 
     @SerializedName("author")
     private String author;

@@ -8,6 +8,6 @@ import retrofit2.http.GET;
 public interface QuotesInterface {
 
     @GET("quotes")
-    Call<List<ProgrammingQuotes>> getQuotes();
+    Call<List<ProgrammingQuote>> getQuotes();
 
 }
