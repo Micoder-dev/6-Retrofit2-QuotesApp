@@ -21,7 +21,7 @@ public class RetrofitServiceGenerator {
 
     private static OkHttpClient okHttpClient = okHttpClientBuilder.build();
 
-    public static <T> T createRetrifitService(Class<T> serviceClass) {
+    public static <T> T createRetrofitService(Class<T> serviceClass) {
 
         if (mRetrofit == null) {
             mRetrofit = new Retrofit.Builder()
